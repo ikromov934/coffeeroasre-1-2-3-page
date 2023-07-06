@@ -16,6 +16,15 @@
     color: #333d4b;
     margin-top: 70px;
   }
+  .card__ttle {
+    font-family: "Fraunces", serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #333d4b;
+    margin-top: 70px;
+  }
   .card__text {
     font-family: "Barlow", sans-serif;
     font-weight: 400;
@@ -25,4 +34,58 @@
     color: #333d4b;
     width: 255px;
     margin-top: 24px;
+  }
+
+  @media only screen and (min-width: 601px ) and (max-width: 1000px)  {
+    .section__card{
+      display: inline-block;
+      margin-left: 185px;
+      margin-top: -165px;
+
+      .card__img{
+        width: 255px;
+        height: 193px;
+        margin-top: 100px;  
+      }
+    }
+    .card__title{
+      margin-left: 235px;
+      margin-top: -160px;
+      margin-right: 65px;
+    }
+    .card__text{
+      text-align: left;
+      width: 282px;
+      margin-left: 350px;
+    }
+    .card__ttle{
+      margin-left: 235px;
+      margin-top: -160px;
+    }
+  }
+
+  @media only screen and (max-width:600px){
+    .card__img{
+      width: 200px;
+      height: 151px;
+      margin-left: 30px;
+    }
+    .card__text{
+      text-align: center;
+      width: 282px;
+    }
+    .section__card{
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+      margin-top: 30px;
+      margin-left: 35px;
+    }
+
+    .card__title{
+      margin-right: 995px;
+    }
+    .card__ttle{
+      margin-right: 975px;
+    }
   }

@@ -90,3 +90,54 @@
   .section__btn:active {
     background: #66d2cf;
   }
+
+  @media only screen and (min-width: 601px ) and (max-width: 1000px){
+    .section__conteyner{
+      padding: 0 45px;
+    }
+    .hr{
+      width: 530px;
+    }
+    .card__info{
+      gap: 10px;
+    }
+    .oval__3{
+      margin-left: 530px;
+    }
+    .oval__2{
+      margin-left: 270px;
+    }
+    .card__infos{
+      width: 217px;
+    }
+  }
+
+
+  @media only screen and (max-width:600px){
+    .bg__hr{
+      display: none;
+    }
+    .title{
+      margin-top: -20px;
+      margin-top: 120px;
+      margin-left: 75px;
+    }
+    .card__info{
+      flex-direction: column;
+    }
+    .card__texts{
+      margin-left: 110px;
+    }
+    .card__titles{
+      font-size: 28px;
+      text-align: center;
+      width: 327px;
+    }
+    .card__infos{
+      text-align: center;
+      margin-left: 12px;
+    }
+    .section__btn{
+      margin-left: 41px;
+    }
+  }

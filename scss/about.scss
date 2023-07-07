@@ -124,9 +124,6 @@
 
 
 
-
-
-
 .card__info {
   display: flex;
   margin-top: 100px;
@@ -191,7 +188,7 @@
   font-family: 'Fraunces', serif;
   font-weight: 900;
   line-height: 32px;
-  margin-left: 230px;
+  margin-left: 120px;
   margin-top: 100px;
 }
 .card__imgs{
@@ -240,4 +237,13 @@
 .prozrachnie {
   color: #f2f2f2;
   margin-top: 135px;
+}
+.section__infos{
+  width: 1280px;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+.title__conteyner{
+  width: 1280px;
+  margin: 0 auto;
 }

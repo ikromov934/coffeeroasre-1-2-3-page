@@ -19,7 +19,7 @@
     color: #fefcf7;
     mix-blend-mode: normal;
     opacity: 0.8;
-    width: 540px;
+    max-width: 540px;
     margin-top: 32px;
     text-align: center;
     margin-left: auto;
@@ -36,7 +36,7 @@
     flex-direction: column;
   }
   .bg__img {
-    width: 71px;
+    max-width: 71px;
     height: 72px;
     margin-left: auto;
     margin-right: auto;
@@ -90,7 +90,7 @@
     text-align: center;
     color: #fefcf7;
     font-family: "Barlow", sans-serif;
-    width: 255px;
+    max-width: 255px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 24px;
@@ -98,7 +98,7 @@
 
   @media only screen and (min-width: 601px ) and (max-width: 1000px){
     .section__bg{
-      width: 1000px;
+       max-width: 1000px;
       margin-left: 75px;
       border-radius: 10px;
       margin-top: 200px;
@@ -111,13 +111,13 @@
     .bg__card{
       display: flex;
       flex-direction: row;
-      width: 643px;
+      max-width: 643px;
       height: 200px;
       margin-left: 260px;
 
     }
     .bg__info{
-      width: 370px;
+      max-width: 370px;
       text-align: left;
       margin-left: 10px;
       margin-right: 50px;
@@ -136,13 +136,13 @@
 
   @media only screen and (max-width:600px){
     .section__bg{
-      width: 327px;
+      max-width: 327px;
       height: 902px;
       margin-top: 100px;
     }
     .bg__title{
       font-size: 28px;
-      width: 250px;
+      max-width: 250px;
       height: 28px;
       margin-left: 40px;
     }
@@ -157,11 +157,11 @@
       margin-top: -500px;
     }
     .bg__card{
-      width: 279px;
+      max-width: 279px;
       height: 382px;
       margin-left: 22px;
     }
     .bg__info{
-      width: 212px;
+      max-width: 212px;
     }
   }

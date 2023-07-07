@@ -12,19 +12,19 @@
   }
   .hr {
     background: url(../images/hr.svg);
-    width: 760px;
+    max-width: 760px;
     height: 2px;
   }
   .oval__1 {
     background: url(../images/Oval.svg);
-    width: 31px;
+    max-width: 31px;
     height: 31px;
     margin-top: -14px;
   }
   
   .oval__2 {
     background: url(../images/Oval.svg);
-    width: 31px;
+    max-width: 31px;
     height: 31px;
     margin-left: 380px;
     margin-top: -30px;
@@ -32,7 +32,7 @@
   
   .oval__3 {
     background: url(../images/Oval.svg);
-    width: 31px;
+    max-width: 31px;
     height: 31px;
     margin-left: 760px;
     margin-top: -31px;
@@ -61,7 +61,7 @@
     line-height: 36px;
     color: #333d4b;
     margin-top: 38px;
-    width: 255px;
+    max-width: 255px;
   }
   .card__infos {
     font-weight: 400;
@@ -69,13 +69,13 @@
     line-height: 26px;
     color: #333d4b;
     font-family: "Barlow", sans-serif;
-    width: 285px;
+    max-width: 285px;
     margin-top: 42px;
   }
   .section__btn {
     background: #0e8784;
     border-radius: 6px;
-    width: 217px;
+    max-width: 217px;
     height: 56px;
     border: none;
     margin-top: 64px;
@@ -96,7 +96,7 @@
       padding: 0 45px;
     }
     .hr{
-      width: 530px;
+      max-width: 530px;
     }
     .card__info{
       gap: 10px;
@@ -108,7 +108,7 @@
       margin-left: 270px;
     }
     .card__infos{
-      width: 217px;
+      max-width: 217px;
     }
   }
 
@@ -131,7 +131,7 @@
     .card__titles{
       font-size: 28px;
       text-align: center;
-      width: 327px;
+      max-width: 327px;
     }
     .card__infos{
       text-align: center;

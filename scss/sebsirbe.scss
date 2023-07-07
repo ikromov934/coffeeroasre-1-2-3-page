@@ -148,6 +148,13 @@ a {
   margin-right: auto;
   font-family: "Barlow", sans-serif;
 }
+.bg__lakatsa{
+  margin-left: -220px;
+}
+.bg__conteyner{
+  width: 1280px;
+  margin: 0 auto;
+}
 .bg {
   display: flex;
   justify-content: space-around;
@@ -369,6 +376,9 @@ a {
 }
 .section__btn:active {
   background: #66d2cf;
+}
+.header__lakatsa{
+  margin-left: -240px;
 }
 .header__bg {
   display: flex;
